@@ -7,6 +7,7 @@
 
 ### it would be great if you add these things to my project :
 - [ ] creat a downloading bar that shows the downloading process to the user from 0% to 100% 
+- [ ] make a good looking GUI for this app with tkinter
 - [x] make a setup for this project
 
 HAVE FUN :)
