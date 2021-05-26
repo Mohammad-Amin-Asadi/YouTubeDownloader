@@ -61,7 +61,7 @@ try:
             fname = input("Enter your video name : ")
             faname = input("Enter your video name : ")
             reso=input("enter your ressolution number|720p,480p,360p,240p,144p| :")
-            fpath = ''
+            fpath = input("enter your file path :")
             if fpath == '':
                 fpath = None
 
