@@ -3,7 +3,7 @@ from pytube import YouTube
 import geocoder
 import requests
 def check_internet():
-    url='http://www.google.com/'
+    url='https://www.youtube.com/'
     timeout=5
     try:
         _ = requests.get(url, timeout=timeout)
@@ -93,7 +93,7 @@ try:
 
 
             fname = input("Enter your video name : ")
-            faname = input("Enter your video name : ")
+            faname = input("Enter your audio name : ")
             reso=input("enter your ressolution number|720p,480p,360p,240p,144p| :")
             fpath = input("enter your file path :")
             if fpath == '':
