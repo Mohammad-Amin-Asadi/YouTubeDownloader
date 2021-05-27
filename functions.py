@@ -3,7 +3,7 @@ from pytube import YouTube
 import geocoder
 import requests
 import functions as func
-
+import time 
 
 def check_internet():
     url='http://www.google.com/'
@@ -22,7 +22,7 @@ def check_ip(check_connection):
         if 'IR' in ip_info:
             os.system('color 4')
             print('As you live in Iran please turn on your VPN or connect to a proxy and restart the program')
-            os.system.sleep(10)
+            time.sleep(10)
             exit()
         else:
             os.system('color 2')
@@ -30,7 +30,7 @@ def check_ip(check_connection):
     else:
         os.system('color 4')
         print("please check your internet connection first and run the app again!")
-        os.system.sleep(10)
+        time.sleep(10)
         exit()
 
 def ULR_VALIDATION(ULR_VALIDATION):
